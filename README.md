@@ -1,11 +1,11 @@
 # Business Case:
 
-The Accounts Department of the Company maintains the invoice level details of all vendors for each part procured. The Business Planner receives invoice data from the Accounts Department for each vendor and collects the supplier and part level information separately from the Purchase Department. The Business Planner has to study the relevant data and identify the Procurement trends, Supplier limitations, Product based supplier consolidation and minimise cost impact to company.
+The Accounts Department of the Company maintains the invoice level details of all vendors for each part procured. The Business Planner receives invoice data from the Accounts Department for each vendor and collects the supplier and part level information separately from the Purchase Department. The Business Planner has to study the relevant data and identify the Procurement trends, Supplier limitations, Product based supplier consolidation and minimize cost impact to company.
 
 
 ## Problem Statement
 
-As the collected Data is of different years for multiple Plants grouped by different Business Units. The parts are either made of Aluminium or Ferrous of different raw material grade alloys, with the source being either Tier 1 supplier or Tier 2 supplier. Considering all these factors, create a dashboard which is insightful on all these factors and can help the Procurement Department make better supply chain strategic decisions.
+As the collected Data is of different years for multiple Plants grouped by different Business Units. The parts are either made of Aluminum or Ferrous of different raw material grade alloys, with the source being either Tier 1 supplier or Tier 2 supplier. Considering all these factors, create a dashboard which is insightful on all these factors and can help the Procurement Department make better supply chain strategic decisions.
 
 
 ## Data Sources
@@ -25,7 +25,7 @@ The dataset used for this analysis is the "Report_Master.xlsx", "Material_weight
 
 ## Data Cleaning preparation
 
-In the initial data preparation stage, follwoing task were performed:
+In the initial data preparation stage, following task were performed:
 	- Data Extraction, Loading & Transforming
 	- Handling errors & null values
 	- Data types as per description
@@ -50,7 +50,7 @@ SCENARIO 2:
       - Invoicevalue by Business Unit, name it as “BU Purchase Volume”
 
 ### Data Analysis
-Utlized Custom columns, merging of column, append queries, measures, Bar chart, Column chart, Area chart, Donut chart, Pie chart, chichlet slicers, maps, etc
+Utilized Custom columns, merging of column, append queries, measures, Bar chart, Column chart, Area chart, Donut chart, Pie chart, chiclet slicers, maps, etc
 
 
 ### Results/Findings:
@@ -58,9 +58,9 @@ Utlized Custom columns, merging of column, append queries, measures, Bar chart, 
 SCENARIO 1:
   - We have total 35 suppliers out of which 16 are Ferrous suppliers & 19 are Non-Ferrous supplier
   - Overall 17 are Small MSME Suppliers, 6 are Medium MSME Suppliers & 12 are Non-MSME Suppliers
-  - As per strategy status 14 are No-Go suupliers & 21 are Go suppliers
+  - As per strategy status 14 are No-Go suppliers & 21 are Go suppliers
   - Suppliers are mainly located in South & Centre of India & small presence in North India
-  - Top supplier interms of Volume is "AM&ACP" which is present in Bangalore who has both Casting & Machining with payment terms upto 90 days
+  - Top supplier in terms of Volume is "AM&ACP" which is present in Bangalore who has both Casting & Machining with payment terms upto 90 days
 
 SCENARIO 2:
   - Supplier Purchase Volume for Non-Ferrous is from "AM&ACP" which is 1.407M & for Ferrous is from "BIPL" - 202M, "SSI" - 200M & "APPPL" 192M
@@ -76,7 +76,7 @@ SCENARIO 2:
 Based on analysis, following recommendations can be utilized:
   - AM&ACP Supplier is found to be most reliable & most liked supplier, buyers can prefer this supplier for Non-Ferrous materials
   - BIPL, SSI & APPPL generates high volume for Ferrous material, Buyers can prefer BIPL & APPPL. SSI Supplier falls in No-Go strategy
-  - Electronics Devision & Automotive Engineering sector to be focused on improvement to generate revenue
+  - Electronics Division & Automotive Engineering sector to be focused on improvement to generate revenue
 
 
 
